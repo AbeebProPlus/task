@@ -10,12 +10,12 @@
 3. **Create a .env File**:
     At the root of the project, create a .env file and add the following configuration details:
 
-**MONGO_URI=mongodb+srv://your_url_here**
-**JWT_SECRET=your secret key**
-**REFRESH_TOKEN_SECRET=your refresh token secret**
-**PORT=8080**
-**MAIL_USERNAME=your email address**
-**MAIL_PASSWORD=your app password**
+1. **MONGO_URI=mongodb+srv://your_url_here**
+2. **JWT_SECRET=your secret key**
+3. **REFRESH_TOKEN_SECRET=your refresh token secret**
+4. **PORT=8080**
+5. **MAIL_USERNAME=your email address**
+6. **MAIL_PASSWORD=your app password**
 The MAIL_PASSWORD and MAIL_USERNAME are required for registration to work successfully.
 A confirmation link is sent to the user's inbox for email verification during the registration process.
 ## Note:
