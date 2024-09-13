@@ -10,8 +10,8 @@
 3. **Create a .env File**:
     At the root of the project, create a .env file and add the following configuration details:
 
- **MONGO_URI=mongodb+srv://your_url_here**
- **JWT_SECRET=your secret key**
+ # MONGO_URI=mongodb+srv://your_url_here**
+ # JWT_SECRET=your secret key**
  **REFRESH_TOKEN_SECRET=your refresh token secret**
  **PORT=8080**
  **MAIL_USERNAME=your email address**
