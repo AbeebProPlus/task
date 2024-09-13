@@ -2,7 +2,6 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-const PORT = process.env.PORT || 5000;
 const connectDb = require("./config/dbConfig");
 const cors = require("cors");
 const corsOptions = require("./middleware/corsOptions");
@@ -13,6 +12,7 @@ const adminRoutes = require("./routes/adminRoutes");
 const createAdminUser = require("./services/adminService"); 
 const swaggerUi = require("swagger-ui-express");
 const specs = require("./config/swaggerConfig");
+const PORT = process.env.PORT || 8080;
 
 connectDb();
 
